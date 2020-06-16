@@ -32,7 +32,7 @@ def nodes_to_tree(nodes_as_list):
     # print('_' * 20)
     # for item in nodes_as_list:
     #     print(item)
-    nodes_to_tree(nodes_as_list)
+    return nodes_to_tree(nodes_as_list)
 
 def huffman_code(str):
     code_table_as_counter = Counter(str)
